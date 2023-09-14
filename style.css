@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(67, 47, 117);
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 67,3%;
+    margin: 0;
+}
+
+#barrinha{
+    background-color: rgb(11, 6, 23);
+    height: 40px;
+    text-align: center;
+    color:rgb(224, 216, 246);
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.quadrado {
+	width: 30%;
+	background-color:rgb(67, 47, 117);
+	padding-bottom: 20%;
+	float: left;
+	margin: 1.66%;
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+    border-radius: 20%;
+} 
+
+h1{
+    color: rgb(153, 128, 213);
+    background-color: rgb(34, 19, 69);
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+button{
+    outline:none;
+    color: rgb(224, 216, 246);
+    background-color: rgb(11, 6, 23);
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 2em;
+    letter-spacing: 1,5px;
+    height: 100%;
+    transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+    padding: 10px;
+}
+
+button:hover {
+	background-color: rgb(153, 128, 213);
+	color: rgb(11, 6, 23);
+}
+
+#resultado{
+    width: 50%;
+    text-align: center;
+    color: rgb(153, 128, 213);
+    font-size: 2em;
+}
