@@ -65,3 +65,8 @@ button:hover {
     color: rgb(153, 128, 213);
     font-size: 2em;
 }
+
+#corEscolhida {
+	display: block;
+	font-size: 2em;
+}

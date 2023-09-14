@@ -102,7 +102,7 @@ function escolhaCor(){
 
 function genRandomCores(){
     var fila = [];
-    for(var i = 0; i < num; i++){
+    for(var i = 0; i < numQuadrados; i++){
         fila.push(criarCor());
     }
     return fila;
