@@ -6,12 +6,12 @@ var quadrados=
 document.querySelectorAll(".quadrado");
 var qualCor=
 document.querySelectorAll("#cor-escolhida");
-var result=
-document.querySelectorAll("#resultado");
+var resultDisplay=
+document.getElementById("resultado");
 var h1=
 document.querySelectorAll("h1");
 var resetar=
-document.querySelectorAll("#reset");
+document.getElementById("reset");
 var dif=
 document.querySelectorAll(".dificuldade");
 var facil=
@@ -45,7 +45,7 @@ function setupQuadrados(){
        }
        else{
         this.style.backgroundColor = "rgb(67, 47, 117)";
-        resultDisplay = "Tente de novo";
+        resultDisplay.textContent = "Tente de novo";
        }
      });
   }
@@ -68,6 +68,7 @@ function setupDificuldade(){
    else {
     numQuadrados = 9;
    }
+   
    reset();
  });
 }
@@ -96,7 +97,7 @@ function changeCores(cor){
 }
 
 function escolhaCor(){
-    var random= Math.floor(Math.random) * cores.length;
+    var random= Math.floor(Math.random() * cores.length);
     return cores[random];
 }
 
