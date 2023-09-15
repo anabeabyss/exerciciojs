@@ -5,11 +5,11 @@ var corEscolhida;
 var quadrados=
 document.querySelectorAll(".quadrado");
 var qualCor=
-document.querySelectorAll("#cor-escolhida");
+document.getElementById("cor-escolhida");
 var resultDisplay=
 document.getElementById("resultado");
 var h1=
-document.querySelectorAll("h1");
+document.getElementById("h1");
 var resetar=
 document.getElementById("reset");
 var dif=
